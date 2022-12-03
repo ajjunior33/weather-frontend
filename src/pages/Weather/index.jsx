@@ -30,7 +30,7 @@ export function Weather(){
         {temp !== null && (
           <>
             <img
-              src={`weather/${icon}.svg`}
+              src={`weather/${icon}.png`}
               alt="icon"
             />
             <Title>{temp.temp_min}º</Title>
